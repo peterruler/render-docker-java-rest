@@ -2,6 +2,7 @@
 - https://spring-boot-rest.onrender.com/swagger-ui.html
 - payed plan can be chosen when installing the docker container
 - can be free cloud PAAS with easy CI/CD!
+- Need a github or gitlab repo for deployment
 
 ## Connection string for postgres db
 - APPLICATION WILL RUN WHEN CONNECTION STRING HOST & PASSWORD IS SET.
@@ -29,7 +30,7 @@
  
 ## db schema
 
-- with pgadmin app connect to your native render postgresdb with host, username & password received from db installation on render.
+- with pgadmin app (download & install) connect to your native render postgresdb with host, username & password received from db installation on render.
 
 - `CREATE DATABASE java_database_name` Add a schema in pgadmin `public` and add tables to this schema.
 
