@@ -51,7 +51,7 @@
   due_date date NOT NULL,
   priority VARCHAR(5) NOT NULL
   );`
-- 
+
 ## build project
 
 - `mvn clean install`
