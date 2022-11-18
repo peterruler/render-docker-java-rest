@@ -25,7 +25,7 @@
 
 ## render.com env variable, add while deploying to render.com
 
-- in webinterface please add `PORT` with value of `8080`
+- in webinterface please add `PORT` with value of `8080` to the environment variables in render.com settings
 - otherwise the app won't be reachable!
  
 ## db schema
