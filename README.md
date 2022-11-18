@@ -14,7 +14,7 @@
 ## dot env file
 
 `PORT=8080`
-`JDBC_DATABASE_URL=jdbc:postgresql://<SUBDOMAIN-HOSTY>.frankfurt-postgres.render.com/java_database_name`
+`JDBC_DATABASE_URL=jdbc:postgresql://<SUBDOMAIN-HOST>.frankfurt-postgres.render.com/java_database_name`
 `username=java_database_name_user`
 `password=<PASSWORD>`
 
