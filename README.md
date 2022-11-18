@@ -14,9 +14,8 @@
 
 ## dot env file, each key-value pair on a new line
 - create a `.env` file in the root of this project with the following content:
-- 
-`PORT=8080`
-- 
+- `PORT=8080`
+
 `JDBC_DATABASE_URL=jdbc:postgresql://<SUBDOMAIN-HOST>.frankfurt-postgres.render.com/java_database_name`
 `username=java_database_name_user`
 
