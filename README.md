@@ -11,7 +11,8 @@
 - for Java you choose docker type and connect to your repo with the content of this repo!
 - After you created a db on render or any other host you can set the CONNECTIONSTRING in your application.properties and install the db tables.
 - In `src/main/resources/application.properties` add the following line:
-- `spring.datasource.url=jdbc:postgresql://<subdomain>.frankfurt-postgres.render.com/java_database_name?currentSchema=public&user=java_database_name_user&password=<dbpassword>`
+- `spring.datasource.url=jdbc:postgresql://<SUBDOMAIN-HOST>.frankfurt-postgres.render.com/java_database_name?currentSchema=public&user=java_database_name_user&password=<DBPASSWORD>`
+- WHILE REPLACE <SUBDOMAIN-HOST> and <DBPASSWORD> with your settings!
 
 ## dot env file, each key-value pair on a new line
 - create a `.env` file in the root of this project with the following content:
@@ -21,7 +22,7 @@
 
 - `username=java_database_name_user`
 
-- `password=<PASSWORD>`
+- `password=<DBPASSWORD>`
 
 ## render.com env variable, add while deploying to render.com
 
