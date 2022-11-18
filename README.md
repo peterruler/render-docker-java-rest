@@ -85,6 +85,11 @@ or
   }`
 - GET: http://localhost:8080/api/projects
 
+
+## install docker on windows/macos
+
+- download & install docker desktop
+
 ## build docker
 
 - build docker image: `sudo docker build -t spring-boot-rest-docker .`
