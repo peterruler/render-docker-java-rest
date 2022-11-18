@@ -65,7 +65,7 @@ or
 ## Free port 8080
 
 - `lsof -t -i tcp:8080 | xargs kill`
-- 
+
 ## sample calls
 
 - POST: http://localhost:8080/api/projects
