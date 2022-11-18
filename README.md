@@ -11,6 +11,13 @@
 - In `src/main/resources/application.properties` add the following line:
 - `spring.datasource.url=jdbc:postgresql://<subdomain>.frankfurt-postgres.render.com/java_database_name?currentSchema=public&user=java_database_name_user&password=<dbpassword>`
 
+## dot env file
+
+`PORT=8080`
+`JDBC_DATABASE_URL=jdbc:postgresql://<SUBDOMAIN-HOSTY>.frankfurt-postgres.render.com/java_database_name`
+`username=java_database_name_user`
+`password=<PASSWORD>`
+
 ## render.com env variable, add while deploying to render.com
 
 - in webinterface please add `PORT` with value of `8080`
