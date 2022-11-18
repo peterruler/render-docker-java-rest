@@ -1,0 +1,13 @@
+/target/java-getting-started-1.0.jar.original
+/target/classes
+/target/generated-sources
+/target/maven-archiver
+/target/maven-status
+.env
+.DS_Store
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.mvn/wrapper/maven-wrapper.jar
