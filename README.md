@@ -1,6 +1,7 @@
 ## DEMO on render.com in FREE PLAN with 10 Minutes startuptime
 - https://spring-boot-rest.onrender.com/swagger-ui.html
 - payed plan can be chosen when installing the docker container
+- can be free cloud PAAS with easy CI/CD!
 
 ## Connection string for postgres db
 - APPLICATION WILL RUN WHEN CONNECTION STRING HOST & PASSWORD IS SET.
