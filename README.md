@@ -41,7 +41,7 @@
 
 ## dot env file, each key-value pair on a new line
 - create a `.env` file in the root of this project with the following content:
-- Replace `<SUBDOMAIN_HOST>` and `<DBPASSWORD` with your db credentials:
+- Replace `<SUBDOMAIN-HOST>` and `<DBPASSWORD` with your db credentials:
 
 ```
 PORT=8080
