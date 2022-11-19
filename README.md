@@ -1,10 +1,26 @@
+## Prequesites
+
+- Java 8
+- Maven
+- Github account (also possible to login to render.com)
+- IDE like free IntelliJ Community Edition
+- PQAdmin
+- Docker Desktop or Linux install of Docker
+
 ## DEMO on render.com in FREE PLAN with 10 Minutes startuptime
+
 - https://spring-boot-rest.onrender.com/swagger-ui.html
 - payed plan can be chosen when installing the docker container
 - can be free cloud PAAS with easy CI/CD!
 - Need a github or gitlab repo for deployment
 
+## Github
+
+- Used to deploy CI/CD this repository (possible to fork this repo then use to deploy)
+- Used to login to render
+
 ## Connection string for postgres db
+- Tutorial: https://www.youtube.com/watch?v=KKoMffBhvQo
 - APPLICATION WILL RUN WHEN CONNECTION STRING HOST & PASSWORD IS SET.
 - MUST BE BUILT WITH CORRECT CONNECTIONSTRING
 - in render webinterface choose postgres type and create a db
@@ -13,6 +29,10 @@
 - In `src/main/resources/application.properties` add the following line:
 - `spring.datasource.url=jdbc:postgresql://<SUBDOMAIN-HOST>.frankfurt-postgres.render.com/java_database_name?currentSchema=public&user=java_database_name_user&password=<DBPASSWORD>`
 - WHILE REPLACE `<SUBDOMAIN-HOST>` and `<DBPASSWORD>` with your settings!
+
+## render.com setup
+
+- Choose new webservice -> docker -> Choose this repo from the dropdown in render webinterface
 
 ## dot env file, each key-value pair on a new line
 - create a `.env` file in the root of this project with the following content:
@@ -35,7 +55,7 @@
 
 - `CREATE DATABASE java_database_name` Add a schema in pgadmin `public` and add tables to this schema.
 
-- `set transaction read write;
+```set transaction read write;
   DROP TABLE IF EXISTS Project CASCADE;
   DROP TABLE IF EXISTS Issue CASCADE;
   CREATE TABLE Project (
@@ -52,7 +72,8 @@
   title VARCHAR ( 255 ) NOT NULL,
   due_date date NOT NULL,
   priority VARCHAR(5) NOT NULL
-  );`
+  );
+  ```
 
 ## build project
 
