@@ -1,11 +1,12 @@
 ## Prequesites
 
-- Java 8
-- Maven
+- Java 8 - https://openjdk.org/install/
+- Maven - https://maven.apache.org/install.html
+- Git SCM installed - https://git-scm.com/downloads
 - Github account (also possible to login to render.com)
-- IDE like free IntelliJ Community Edition
-- PQAdmin
-- Docker Desktop or Linux install of Docker
+- IDE like free IntelliJ Community Edition - https://www.jetbrains.com/idea/download
+- PQAdmin - https://www.pgadmin.org/download
+- Docker Desktop or Linux install of Docker - https://www.docker.com/products/docker-desktop
 
 ## DEMO on render.com in FREE PLAN with 10 Minutes startuptime
 
@@ -20,7 +21,7 @@
 - Used to login to render
 
 ## Connection string for postgres db
-- Tutorial: https://www.youtube.com/watch?v=KKoMffBhvQo
+- Tutorial postgres on render.com: https://www.youtube.com/watch?v=KKoMffBhvQo
 - APPLICATION WILL RUN WHEN CONNECTION STRING HOST & PASSWORD IS SET.
 - MUST BE BUILT WITH CORRECT CONNECTIONSTRING
 - in render webinterface choose postgres type and create a db
@@ -74,6 +75,20 @@
   priority VARCHAR(5) NOT NULL
   );
   ```
+## Deploy project to render
+
+- init fresh repository (`<USERNAME>` replace with your github username):
+```
+git init
+git add .
+git remote add origin git@github.com:<USERNAME>/render-docker-java-rest
+git commit -m "initial commit"
+git push -u origin master
+```
+- or checkout the project:
+```
+git clone https://github.com/peterruler/render-docker-java-rest.git
+```
 
 ## build project
 
