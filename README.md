@@ -30,7 +30,7 @@
 - MUST BE BUILT WITH CORRECT CONNECTION STRING
 - in render webinterface choose postgres type and create a db
 - for Java you choose docker type and connect to your repo with the content of this repo!
-- After you created a db on render or any other host you can set the CONNECTIONSTRING in your application.properties and install the db tables.
+- After you created a db on render or any other host you can set the CONNECTION STRING in your application.properties and install the db tables.
 - In `src/main/resources/application.properties` add the following line:
 - `spring.datasource.url=jdbc:postgresql://<SUBDOMAIN-HOST>.frankfurt-postgres.render.com/java_database_name?currentSchema=public&user=java_database_name_user&password=<DBPASSWORD>`
 - WHILE REPLACING `<SUBDOMAIN-HOST>` and `<DBPASSWORD>` with your settings!
