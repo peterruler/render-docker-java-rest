@@ -15,6 +15,10 @@
 - can be free cloud PAAS with easy CI/CD!
 - Need a github or gitlab repo for deployment
 
+## deploy Nodejs to render Free Webservice/PAAS hosting
+
+- Tutorial nodejs deployment: https://www.youtube.com/watch?v=39ngI2PF43Q 
+
 ## Github
 
 - Used to deploy CI/CD this repository (possible to fork this repo then use to deploy)
@@ -33,7 +37,7 @@
 
 ## render.com setup
 
-- Choose new webservice -> docker -> Choose this repo from the dropdown in render webinterface
+- Choose: free plan -> new webservice -> docker -> Choose this repo from the dropdown in render webinterface
 
 ## dot env file, each key-value pair on a new line
 - create a `.env` file in the root of this project with the following content:
