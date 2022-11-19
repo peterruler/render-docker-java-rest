@@ -33,7 +33,7 @@
 - After you created a db on render or any other host you can set the CONNECTIONSTRING in your application.properties and install the db tables.
 - In `src/main/resources/application.properties` add the following line:
 - `spring.datasource.url=jdbc:postgresql://<SUBDOMAIN-HOST>.frankfurt-postgres.render.com/java_database_name?currentSchema=public&user=java_database_name_user&password=<DBPASSWORD>`
-- WHILE REPLACE `<SUBDOMAIN-HOST>` and `<DBPASSWORD>` with your settings!
+- WHILE REPLACING `<SUBDOMAIN-HOST>` and `<DBPASSWORD>` with your settings!
 
 ## render.com setup
 
