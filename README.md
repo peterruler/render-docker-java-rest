@@ -27,7 +27,7 @@
 ## Connection string for postgres db
 - Tutorial postgres on render.com: https://www.youtube.com/watch?v=KKoMffBhvQo
 - APPLICATION WILL RUN WHEN CONNECTION STRING HOST & PASSWORD IS SET.
-- MUST BE BUILT WITH CORRECT CONNECTIONSTRING
+- MUST BE BUILT WITH CORRECT CONNECTION STRING
 - in render webinterface choose postgres type and create a db
 - for Java you choose docker type and connect to your repo with the content of this repo!
 - After you created a db on render or any other host you can set the CONNECTIONSTRING in your application.properties and install the db tables.
