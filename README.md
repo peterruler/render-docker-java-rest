@@ -83,6 +83,7 @@ password=<DBPASSWORD>
 
 - init fresh repository (`<USERNAME>` replace with your github username):
 ```
+sudo rm -R .git
 git init
 git add .
 git remote add origin git@github.com:<USERNAME>/render-docker-java-rest
