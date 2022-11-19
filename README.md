@@ -3,7 +3,7 @@
 - Java 8 - https://openjdk.org/install/
 - Maven - https://maven.apache.org/install.html
 - Git SCM installed - https://git-scm.com/downloads
-- Github account (also possible to login to render.com)
+- Github account (also possible to login to render.com) - https://github.com
 - IDE like free IntelliJ Community Edition - https://www.jetbrains.com/idea/download
 - PQAdmin - https://www.pgadmin.org/download
 - Docker Desktop or Linux install of Docker - https://www.docker.com/products/docker-desktop
